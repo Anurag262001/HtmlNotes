@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- action :- link where you want to send the data
+method:- it specify how to send form data 
+Notes on GET:
+
+Appends form-data into the URL in name/value pairs
+The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+Useful for form submissions where a user wants to bookmark the result
+GET is better for non-secure data, like query strings in Google
+Notes on POST:
+
+Appends form-data inside the body of the HTTP request (data is not shown in URL)
+Has no size limitations
+Form submissions with POST cannot be bookmarked 
+
+
+label: Screen reader users (will read out loud the label, when the user is focused on the element)
+
+
+
+The <label> tag defines a label for several elements:
+
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="search">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+<meter>
+<progress>
+<select>
+<textarea>
+    
+The name attribute specifies the name of an <input> element.
+The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.
+Note: Only form elements with a name attribute will have their values passed when submitting a form.
+-->
+<form action="" method="get">
+        <label for="">firstname</label>
+        <input type="text" name="" placeholder="name" value="anurag" >
+        <button type="submit">submit</button>
+<!-- input types are so many better to write input: and go through each -->
+
+
+
+
+  <!-- to select from the options we use select tag and inside select we use option  -->  
+<select name="" id="" >
+    <option value="vscode">vscode</option>
+    <option value="vscode">vscode</option>
+    <option value="vscode">vscode</option>
+    <option value="vscode">vscode</option>
+    <option value="vscode">vscode</option>
+    <option value="vscode">vscode</option>
+</select>
+
+
+    </form>
+</body>
+
+</html>
